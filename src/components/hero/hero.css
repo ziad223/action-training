@@ -1,0 +1,113 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero button{
+    background-color: transparent;
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    border: 1px solid var(--main-color);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+.hero button:hover{
+    background-color: var(--main-color);
+}
+.hero-left{
+    width: 60%;
+}
+.hero-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-left-one{
+    background: linear-gradient(rgba(20 , 20 , 20 , 0.6) , rgba(20 , 20 , 20 , 0.6)) , url(../../img/carousel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.hero-left-one div{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.hero-left-one div h2{
+    font-size: 26px;
+}
+.hero-left-one div p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.hero-left-two div{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.hero-left-two div h2{
+    font-size: 26px;
+}
+.hero-left-two div p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.hero-left-three div{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.hero-left-three div h2{
+    font-size: 26px;
+}
+.hero-left-three div p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.hero-left-two{
+    background:linear-gradient(rgba(20 , 20 , 20 , 0.6) , rgba(20 , 20 , 20 , 0.6)) ,  url(../../img/carousel-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.hero-left-three{
+    background:linear-gradient(rgba(20 , 20 , 20 , 0.6) , rgba(20 , 20 , 20 , 0.6)) ,  url(../../img/carousel-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.hero-right-up{
+    background:linear-gradient(rgba(20 , 20 , 20 , 0.6) , rgba(20 , 20 , 20 , 0.6)) ,  url(../../img/offer-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24vh;  
+}
+.hero-right-down{
+    background:linear-gradient(rgba(20 , 20 , 20 , 0.6) , rgba(20 , 20 , 20 , 0.6)) ,  url(../../img/offer-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 24vh; 
+}
+
+.slick-prev , .slick-next{
+    display: none !important;
+}
+.h{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+.h h2{
+    margin: 15px 0px;
+
+}

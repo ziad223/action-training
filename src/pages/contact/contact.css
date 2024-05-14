@@ -1,0 +1,81 @@
+.contact h2{
+    text-align: center;
+    font-size: 35px;
+}
+.contact h2 span{
+    color: var(--main-color);
+}
+.contact-content{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-left{
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-content input{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #eee;
+}
+.contact-content textarea{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #eee;
+    height: 200px;
+}
+.contact-right{
+    width: 30%;
+}
+.contact-content button{
+    background-color: var(--main-color);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact-content button:hover{
+    background-color: yellow;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-right-up{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-right-down{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-right-down div{
+    display: flex;
+    gap: 10px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.contact-right-down div span{
+    color: gray;
+}

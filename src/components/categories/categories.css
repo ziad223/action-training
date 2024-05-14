@@ -1,0 +1,30 @@
+.categories h2{
+    font-size: 30px;
+    text-align: center;
+    color: var(--main-color);
+}
+.categories-content{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.category{
+    width: 22%;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;  
+    align-items: center;
+    gap: 10px;
+}
+
+.category img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.category h4{
+    margin-top: 10px;
+    color: gray;
+}

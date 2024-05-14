@@ -1,0 +1,13 @@
+/* .vendor{
+   background-color: #ccc;
+   padding: 20px;
+   height: max-content;
+} */
+.vendor{
+    margin-bottom: 0 !important;
+    padding-bottom: 20px;
+}
+.vendor img{
+    width: 200px !important;
+    margin-right: 10px !important;
+}

@@ -1,0 +1,82 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #3d464d;
+    color: #fff ;
+    position: sticky;
+    z-index: 55;
+    top: 0;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo span{
+    color: var(--main-color);
+}
+.moon{
+    font-size: 22px;
+    cursor: pointer;
+    color: var(--main-color);
+}
+.menu{
+    font-size: 22px;
+    cursor: pointer;
+    color: var(--main-color);
+    display: none;
+}
+.nav-left h2 span{
+    color: var(--main-color);
+}
+.nav-middle ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav-middle ul a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.5s;
+}
+.nav-middle ul a:hover{
+    color: var(--main-color);
+}
+.nav-right{
+    display: flex;
+    gap: 30px;
+}
+.nav-right .nav-icon {
+    color: var(--main-color);
+    font-size: 20px;
+}
+.products-parent{
+    position: relative;
+}
+.products-child{
+    background-color: var(--main-color);
+    padding: 20px;
+    position: absolute;
+    top: 44px;
+    left: -50px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.products-child a{
+    color: #000 !important;
+    padding: 15px;
+    transition: 0.5s;
+}
+.products-child a:hover{
+    background-color: yellow;
+}

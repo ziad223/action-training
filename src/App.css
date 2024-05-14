@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Tajawal", sans-serif;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+.i{
+  cursor: pointer;
+}
+:root{
+  --main-color : #ffd333;
+}
+.container{
+  width: 90%;
+  margin: 100px auto;
+}
+.spinner{
+  display: block;
+  margin:30px auto;
+  font-size: 40px;
+  animation: spinner 1s infinite;
+  color: var(--main-color);
+}
+@keyframes spinner {
+   0%{
+    transform: rotate(0deg);
+   }
+   100%{
+    transform: rotate(360deg);
+   }
+}
+
+/* dark && light mode */
+
+.app-dark{
+  background-color: #000;
+  color: #fff;
+}
+
+.app-dark .service , 
+.app-dark .category,
+.app-dark .feature,
+.app-dark .product,
+.app-dark .contact-left,
+.app-dark .contact-left input,
+.app-dark .contact-left textarea,
+.app-dark .contact-right-up,
+.app-dark .contact-right-down{
+  background-color: #222;
+}
+.fake{
+  margin-bottom: 0px !important;
+}
+.about{
+  margin-bottom: 0 ;
+}
+.sun{
+  font-size: 22px;
+  animation: spinner 3s infinite;
+}
+
+@media screen and (max-width : 800px){
+  nav{
+    padding: 20px !important;
+    position: relative;
+  }
+  .nav-middle ul{
+    position: absolute;
+    flex-direction: column;
+    top: 64px;
+    background-color: var(--main-color);
+    padding: 20px;
+    text-align: center;
+    right: -350px;
+    width: 300px;
+    transition: 1s;
+    
+  }
+    .nav-middle ul.open{
+      right: 0;
+    }
+    .nav-middle ul a{
+      color: #000 !important;
+    }
+    .logo{
+      margin-right: 20px;
+      font-size: 18px !important;
+    }
+    .menu{
+      display: block !important;
+      font-size: 20px;
+    }
+    .moon , .sun {
+      font-size: 20px;
+    }
+        .hero{
+          flex-direction: column;
+        }
+   .hero-left{
+   width: 100% !important;
+  }
+     .hero-right {
+       width: 100% !important;
+     }
+     .services{
+      flex-direction: column;
+     }
+         .service{
+          width: 90% !important;
+         }
+         .categories-content{
+          flex-direction: column;
+         }
+         .category{
+          width: 90% !important;
+         }
+         .features{
+          flex-direction: column;
+         }
+           .feature{
+             width: 90% !important;
+           }
+           .about-content{
+            flex-direction: column;
+           }
+           .products{
+            flex-direction: column;
+           }
+                     .product {
+                      width: 90% !important ;
+                     }
+}
